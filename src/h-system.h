@@ -27,9 +27,9 @@
 
 # if defined(linux)
 #  include <sys/time.h>
-# endif
-
+# else
 #  include <sys/timeb.h>
+# endif
 
 #endif
 
