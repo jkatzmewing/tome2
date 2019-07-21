@@ -18,6 +18,8 @@
 #include <ctype.h>
 #include <errno.h>
 
+#include <glib.h>
+
 #if defined(NeXT)
 # include <libc.h>
 #else
