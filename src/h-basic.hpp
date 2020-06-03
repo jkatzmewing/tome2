@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdint>
+#include <cstdio>
 
 /*
  * Choose the hardware, operating system, and compiler.
