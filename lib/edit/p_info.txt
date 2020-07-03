@@ -176,6 +176,21 @@ C:a:g:Manwe Sulimo
 C:a:g:Tulkas
 C:a:g:Melkor Bauglir
 
+C:a:N:Battlemage
+C:a:D:Warrior-mages who can learn offensive and utility spells, at the expense
+C:a:D:of archery and melee weapon specialization.
+C:a:k:=0:=0:Sword-mastery
+C:a:k:=0:=0:Axe-mastery
+C:a:k:=0:=0:Hafted-mastery
+C:a:k:=0:=0:Polearm-mastery
+C:a:k:=0:=0:Antimagic
+C:a:k:=0:=0:Archery
+C:a:k:+1000:+400:Magic
+C:a:k:+1000:+300:Spirituality
+C:a:k:+1000:+600:Thaumaturgy
+C:a:k:+1000:+600:Mindcraft
+
+
 C:N:1:3:Mage
 C:D:0:The basic spellcaster with lots of different skills
 C:D:1:Apprentice
