@@ -1,0 +1,22 @@
+[package]
+name = "tome2-rs"
+version = "0.1.0"
+authors = ["Jan Alexandra Katz <beeswaxboffin@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "c2rust_out"
+path = "lib.rs"
+crate-type = ["staticlib", "rlib"]
+
+[[bin]]
+path = "src/main.rs"
+name = "tome"
+
+[dependencies]
+c2rust-asm-casts = "0.2"
+c2rust-bitfields = "0.3"
+libc = "0.2"
+
